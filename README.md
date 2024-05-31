@@ -1,5 +1,6 @@
 # Recipe saturated fat study
 Name(s): Kate Zhou, Ziyao Zhou
+<<<<<<< HEAD
 
 Website Link: [title](https://ziyaozzz.github.io/dsc80_project4_html/)
 
@@ -88,3 +89,6 @@ The relationship between rare receipe items and their preparation time and steps
 **Alternative Hypothesis**: recipes with '3-steps-or-less' tag are less healthy (higher in Saturated Fat) than other recipes.
 
 **Test Statistic**: the difference in means or medians of recipes with '3-steps-or-less' tag and recipes without this tag.
+=======
+Website Link: https://ziyaozzz.github.io/dsc80_project4_html/
+>>>>>>> d9b066a33be5ed9e48c23b17bd2e39cf3c4ff55b
