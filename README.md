@@ -181,11 +181,13 @@ To test this, we calculated the absolute difference in mean proportion of number
 ></iframe>
 
 <iframe
-  src="pictures/permutation_test.html"
+  src="pictures/tags_permutation_test.html"
   width="800"
   height="600"
   frameborder="0"
 ></iframe>
+
+By the p-value of 1 > 0.05. We reject the alternate hypothesis, we do not have enough evidence to support that the rating and num_tags are dependent to each other.
 
 ## Hypothesis Testing
 
