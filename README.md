@@ -123,6 +123,7 @@ We analyzed the relationship between the number of steps in a recipe and its sat
   frameborder="0"
 ></iframe>
 
+From the plot, we see a positive trend line (for mean and median) between saturated_fat column and n_steps column. The minimum and maximum saturated fat tend to be constant over the steps. Recipes with more steps seem to have more saturated fat.
 
 **Interesting Aggregates**
 
