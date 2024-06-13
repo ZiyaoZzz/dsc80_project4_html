@@ -165,7 +165,7 @@ To test this, we calculated the absolute difference in mean proportion of satura
 
 By the p-value of 0.0 < 0.05. We reject the null hypothesis, we do not have enough evidence to support that the rating and saturated_fat are independent to each other.
 
-## Step 4: Hypothesis Testing
+## Hypothesis Testing
 
 **Questions:**
 1. the relationship between rare receipe items and their preparation time and steps. 
@@ -249,7 +249,7 @@ To enhance our model and mitigate potential issues like multicollinearity, we wi
 - Create new features such as 'calories per minute' or 'calories per step'.
 - Consider advanced techniques such as **Lasso Regression**, **Principal Component Analysis (PCA)**, and **Cross-Validation** to avoid overfitting and improve model robustness.
 
-## Step 6: Baseline Model
+## Baseline Model
 
 ### Statistical Analysis of the Baseline Model
 
@@ -276,7 +276,7 @@ To enhance our model and mitigate potential issues like multicollinearity, we wi
 
 The baseline Linear Regression model shows promising results with an RMSE of 6.38 on the training set and 6.32 on the testing set. These results suggest that the model is performing reasonably well, but there is potential for improvement through additional features, advanced modeling techniques, and hyperparameter tuning.
 
-## Step 7: Final Model
+## Final Model
 
 ### Description
 
@@ -331,7 +331,7 @@ The final model significantly improved the testing RMSE compared to the baseline
 
 By incorporating feature scaling and leveraging the ensemble power of `RandomForestRegressor` with optimal hyperparameters, the final model effectively reduced the prediction error. The model is able to predict the number of steps very accurately using other features. 
 
-## Step 8: Fairness Analysis
+## Fairness Analysis
 
 ### Fairness Analysis of the Final Model
 
