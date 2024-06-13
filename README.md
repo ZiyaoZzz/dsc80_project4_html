@@ -148,8 +148,11 @@ We believe that the absence of ratings in the 'review' column is likely Not Miss
 We proceeded to investigate the missingness of 'rating' in the merged DataFrame by examining its dependency on two key factors: 'saturated fat (PDV)', representing the proportion of sugar out of the total calories, and 'num_tags', denoting the number of tags of the recipe.
 
 Dependency of missingness on saturated fat (PDV)
+
 The null hypothesis: The missingness of ratings is independent of the saturated fat (PDV) in the recipe.
+
 The alternative hypothesis: The missingness of ratings is dependent by the saturated fat (PDV) in the recipe. 
+
 To test this, we calculated the absolute difference in mean proportion of saturated fat between the group with missing ratings and the group without missing ratings. Our significance level was set at 0.05 to determine the statistical significance of the findings.
 
 <iframe
@@ -168,9 +171,13 @@ To test this, we calculated the absolute difference in mean proportion of satura
 
 By the p-value of 0.0 < 0.05. We reject the null hypothesis, we do not have enough evidence to support that the rating and saturated_fat are independent to each other.
 
+
 Dependency of missingness on num_tags
+
 The null hypothesis: The missingness of ratings is independent of the num_tags in the recipe.
+
 The alternative hypothesis: The missingness of ratings is dependent by the num_tags in the recipe.
+
 To test this, we calculated the absolute difference in mean proportion of number of tags between the group with missing ratings and the group without missing ratings. Our significance level was set at 0.05 to determine the statistical significance of the findings.
 
 <iframe
