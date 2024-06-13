@@ -210,7 +210,7 @@ The observed difference is -65.736 and the p-value is 0.
 The null hypothesis is not supported. 
 We fail to reject the alternative hypothesis.
 
-## Step 5: Framing a Prediction Problem
+## Framing a Prediction Problem
 
 ### Prediction Problem: 
 - Predicting the number of steps needed to cook a recipe.
